@@ -7,3 +7,5 @@ I suspect it is related to build args at this point.
 But it could be labels.
 
 Or is it both?
+
+Using latest buildkit
