@@ -19,8 +19,6 @@ COPY go.* /build/
 RUN go mod download
 
 ARG VERSION
-ARG COMMIT_HASHH
-ARG BUILD_DATEE
 
 COPY . /build
 RUN go build -o /build/hello
