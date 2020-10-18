@@ -9,3 +9,5 @@ But it could be labels.
 Or is it both?
 
 Using latest buildkit
+
+Removed build args
