@@ -67,6 +67,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           builder: builder-docker-2
+          context: .
           push: false
           tags: ${{ steps.tags.outputs.tags }}
           cache-from: type=local,src=/tmp/.buildx-cache
