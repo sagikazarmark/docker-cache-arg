@@ -60,6 +60,9 @@ jobs:
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
+        with:
+          driver-opts: image=sagikazarmark/buildkit:empty-layer
+          buildkitd-flags: --debug
 
       - name: Build and push
         uses: docker/build-push-action@v2
